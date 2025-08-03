@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: gray;
+}
 
 img {
   display: block;
@@ -19,6 +22,7 @@ button {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
   top: 50%;
   transform: translateY(-50%);
 }
